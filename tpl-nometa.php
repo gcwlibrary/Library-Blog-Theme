@@ -5,7 +5,7 @@ Template Name: No Meta
 ?>
 <?php get_header() ?>
 
-<section id="cwd_content" class="cwd_container" data-template="page">
+<section id="cwd_content" class="cwd_container nometa" data-template="page">
 
 	<div class="grid_12 column bg_white">
 
