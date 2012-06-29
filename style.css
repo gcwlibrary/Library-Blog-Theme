@@ -26,3 +26,8 @@ h1{
 .nometa h1.padding_top{
 	padding-top: 5px;
 }
+
+/*Slider*/
+#wpcontent_slider{
+	border: 0 ! important;
+}

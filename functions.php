@@ -31,3 +31,4 @@ $args = array(
 	'after_title'   => '</h3>' );
 	
 	register_sidebar( $args );
+?>
