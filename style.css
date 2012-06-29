@@ -8,7 +8,21 @@ Version:        1
 
 @import url("../CWD3.1-WordPress-theme/style.css");
 
+h1{
+	font-size: 24px;
+}
+
 /*Homepage*/
 .library-home.column{
 	width: 298px;
+}
+
+/*Menus*/
+#cwd_navigation ul{
+	z-index: 999;
+}
+
+/*Nometa pages*/
+.nometa h1.padding_top{
+	padding-top: 5px;
 }
