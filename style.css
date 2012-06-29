@@ -1,0 +1,14 @@
+/*
+Theme Name:     Library
+Description:    Child theme of CWD 
+Author:         Andrew Beeken
+Template:       CWD3.1-WordPress-theme
+Version:        1
+*/
+
+@import url("../CWD3.1-WordPress-theme/style.css");
+
+/*Homepage*/
+.library-home.column{
+	width: 298px;
+}
