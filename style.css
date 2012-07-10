@@ -20,7 +20,8 @@ h1{
 	font-size: 24px;
 }
 
-.widget_search .screen-reader-text{
+.widget_search .screen-reader-text,
+.widget_search br{
 	display: none;
 }
 
