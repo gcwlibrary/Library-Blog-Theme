@@ -20,6 +20,10 @@ h1{
 	font-size: 24px;
 }
 
+.widget_search .screen-reader-text{
+	display: none;
+}
+
 /*Homepage*/
 .library-home.column{
 	width: 298px;
