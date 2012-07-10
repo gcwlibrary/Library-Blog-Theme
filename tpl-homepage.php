@@ -36,11 +36,11 @@ Template Name: Homepage
 							</div>
 							<?php endif ?>
 							
-							<div class="post-content padding_left padding_top library-home column first">
+							<div class="post-content padding_left padding_top padding_bottom library-home column first">
 								<?php dynamic_sidebar( 'homepage-left' ); ?>
 							</div>
 							
-							<div class="post-content padding_top library-home column last">
+							<div class="post-content padding_top padding_bottom library-home column last">
 								<?php dynamic_sidebar( 'homepage-right' ); ?>
 							</div>
 							
