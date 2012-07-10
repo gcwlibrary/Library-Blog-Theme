@@ -8,6 +8,14 @@ Version:        1
 
 @import url("../CWD3.1-WordPress-theme/style.css");
 
+body{
+	background: #eee;
+}
+
+#cwd_blog_panel{
+	height: 135px;
+}
+
 h1{
 	font-size: 24px;
 }
@@ -30,4 +38,9 @@ h1{
 /*Slider*/
 #wpcontent_slider{
 	border: 0 ! important;
+}
+
+/*Breadcrumbs*/
+.breadcrumbs{
+	font-size: 11px;
 }
