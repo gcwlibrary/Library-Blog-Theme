@@ -13,7 +13,7 @@ body{
 }
 
 #cwd_blog_panel{
-	height: 135px;
+	height: 105px;
 }
 
 h1{
@@ -97,3 +97,30 @@ ul.peekaboo-list li{
 		ul.peekaboo-list li a.peekaboo_link.peekaboo_onshow{
 			background-image: url(inc/images/peekaboo-arrow-down.png);
 		}
+		
+/*Subpage list - requires a class of subpage-list to be applied to the list*/
+ul.subpage-list,
+ul.subpage-list li{
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+
+	ul.subpage-list{
+		margin-top: 10px;
+	}
+
+	ul.subpage-list li{
+		background-color: #eee;
+		padding: 5px;
+		width: 45%;
+		float: left;
+		display: block;
+		margin: 0 5px 5px 0;
+	}
+	
+	ul.subpage-list li a{
+		display: block;
+		text-decoration: none;
+		font-size: 16px;
+	}
