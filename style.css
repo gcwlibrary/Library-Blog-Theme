@@ -49,3 +49,51 @@ h1{
 .breadcrumbs{
 	font-size: 11px;
 }
+
+/*Icon menu - a set of reserved classes for icon bsaed menus*/
+.icon-menu ul li{
+	list-style-type: none;
+	padding: 0 0 0 25px;
+	margin: 0 0 5px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-image: url(inc/images/menu-icons/q-mark.png);
+}
+
+	.icon-menu ul li a{
+		font-size: 15px;
+	}
+
+.icon-menu ul{
+	padding: 0;
+}
+
+	.icon-menu ul li.icon-clock{
+		background-image: url(inc/images/menu-icons/clock.png);
+	}
+	
+/*Peekaboo list styles - requires a class of peekaboo-list to be applied to the list, as well as the peekaboo plugin*/
+ul.peekaboo-list{
+	margin-top: 10px;
+}
+
+ul.peekaboo-list,
+ul.peekaboo-list li{
+	margin-left: 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+
+	ul.peekaboo-list li a.peekaboo_link{
+		padding: 3px 3px 3px 23px;
+		background-color: #eee;
+		display: block;
+		margin: 0 0 -5px;
+		background-image: url(inc/images/peekaboo-arrow.png);
+		background-position: 5px center;
+		background-repeat: no-repeat;
+	}
+	
+		ul.peekaboo-list li a.peekaboo_link.peekaboo_onshow{
+			background-image: url(inc/images/peekaboo-arrow-down.png);
+		}
