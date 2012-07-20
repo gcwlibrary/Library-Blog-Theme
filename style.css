@@ -72,6 +72,22 @@ h1{
 		background-image: url(inc/images/menu-icons/clock.png);
 	}
 	
+	.icon-menu ul li.icon-graph{
+		background-image: url(inc/images/menu-icons/graph.png);
+	}
+	
+	.icon-menu ul li.icon-letter{
+		background-image: url(inc/images/menu-icons/letter.png);
+	}
+	
+	.icon-menu ul li.icon-person{
+		background-image: url(inc/images/menu-icons/person.png);
+	}
+	
+	.icon-menu ul li.icon-quotes{
+		background-image: url(inc/images/menu-icons/quotes.png);
+	}
+	
 /*Peekaboo list styles - requires a class of peekaboo-list to be applied to the list, as well as the peekaboo plugin*/
 ul.peekaboo-list{
 	margin-top: 10px;
