@@ -87,6 +87,14 @@ h1{
 		background-image: url(inc/images/menu-icons/quotes.png);
 	}
 	
+	.icon-menu ul li.icon-book{
+		background-image: url(inc/images/menu-icons/book.png);
+	}
+	
+	.icon-menu ul li.icon-signpost{
+		background-image: url(inc/images/menu-icons/signpost.png);
+	}
+	
 /*Peekaboo list styles - requires a class of peekaboo-list to be applied to the list, as well as the peekaboo plugin*/
 ul.peekaboo-list{
 	margin-top: 10px;
