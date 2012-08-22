@@ -152,3 +152,12 @@ ul.subpage-list li{
 aside .padding10{
 	padding: 15px;
 }
+
+table{
+	margin: 20px;
+}
+
+table.withborder,
+table.withborder td{
+	border: solid 1px #000;
+}
