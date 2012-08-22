@@ -155,9 +155,19 @@ aside .padding10{
 
 table{
 	margin: 20px;
+	width: auto;
 }
 
 table.withborder,
-table.withborder td{
+table.withborder td,
+table.withborder th{
 	border: solid 1px #000;
+}
+
+	table.withborder th{
+		background-color: #ccc;
+	}
+
+.post-title{
+	margin-bottom: 20px;
 }
