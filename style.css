@@ -91,16 +91,8 @@ h1{
 		background-image: url(inc/images/menu-icons/book.png);
 	}
 	
-	.icon-menu ul li.icon-book2{
-		background-image: url(inc/images/menu-icons/book2.png);
-	}
-	
 	.icon-menu ul li.icon-signpost{
 		background-image: url(inc/images/menu-icons/signpost.png);
-	}
-	
-	.icon-menu ul li.icon-magnify{
-		background-image: url(inc/images/menu-icons/magnify.png);
 	}
 	
 /*Peekaboo list styles - requires a class of peekaboo-list to be applied to the list, as well as the peekaboo plugin*/
