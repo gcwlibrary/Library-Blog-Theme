@@ -91,6 +91,14 @@ h1{
 		background-image: url(inc/images/menu-icons/book.png);
 	}
 	
+	.icon-menu ul li.icon-book-two{
+		background-image: url(inc/images/menu-icons/book2.png);
+	}
+	
+	.icon-menu ul li.icon-mag{
+		background-image: url(inc/images/menu-icons/mag.png);
+	}
+	
 	.icon-menu ul li.icon-signpost{
 		background-image: url(inc/images/menu-icons/signpost.png);
 	}
