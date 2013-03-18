@@ -26,7 +26,9 @@ Template Name: Homepage
 							
 							<?php if(function_exists('wp_content_slider')) : ?>
 							<div class="padding_left padding_top">
-								<?php wp_content_slider(); ?>
+								<?php wp_content_slider();
+									// echo do_shortcode('[orbit-slider]');
+								?>
 							</div>
 							<?php endif; ?>
 							
